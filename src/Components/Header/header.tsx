@@ -6,7 +6,7 @@ export function Header() {
       <HeaderContent>
         <a href="">
           <img
-            src="https://placehold.co/200x130/png"
+            src="https://placehold.co/150x90/png"
             alt="Logo Fabian Henrick"
           />
         </a>
