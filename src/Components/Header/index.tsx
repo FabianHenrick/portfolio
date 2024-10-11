@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { ButtonContact, HeaderComp, HeaderContent, NavBar } from "./styles";
 
 export function Header() {
@@ -13,16 +14,24 @@ export function Header() {
         <NavBar>
           <ul>
             <li>
-              <a href="#">Início</a>
+              <NavLink to="/" title="Home">
+                <a href="#">Início</a>
+              </NavLink>
             </li>
             <li>
-              <a href="#">Especialidades</a>
+              <NavLink to="/expertise" title="Especialidades">
+                <a href="#">Especialidades</a>
+              </NavLink>
             </li>
             <li>
-              <a href="#">Sobre</a>
+              <NavLink to="/about" title="Sobre">
+                <a href="#">Sobre</a>
+              </NavLink>
             </li>
             <li>
-              <a href="#">Projetos</a>
+              <NavLink to="/projects" title="Projetos">
+                <a href="#">Projetos</a>
+              </NavLink>
             </li>
           </ul>
         </NavBar>
