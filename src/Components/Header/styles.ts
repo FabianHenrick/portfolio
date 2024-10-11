@@ -13,12 +13,14 @@ export const HeaderComp = styled.header`
 
   nav ul {
     list-style-type: none;
+    
   }
 
   nav ul li {
   
     display: inline-block;
     padding: 0 40px;
+    
   
   &:hover {
      
@@ -30,6 +32,7 @@ export const HeaderComp = styled.header`
   a {
     color: ${(props) => props.theme["gray-300"]};
     text-decoration: none;
+    outline: none;
 
     &:hover {
       color: ${(props) => props.theme["gray-100"]};
