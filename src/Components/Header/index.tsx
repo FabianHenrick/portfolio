@@ -6,10 +6,7 @@ export function Header() {
     <HeaderComp>
       <HeaderContent>
         <a href="">
-          <img
-            src="https://placehold.co/150x90/png"
-            alt="Logo Fabian Henrick"
-          />
+          <img src="https://placehold.co/90x60/png" alt="Logo Fabian Henrick" />
         </a>
         <NavBar>
           <ul>
